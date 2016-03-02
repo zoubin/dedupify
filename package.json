@@ -1,0 +1,33 @@
+{
+  "name": "dedupify",
+  "version": "0.0.1",
+  "description": "Replace the default dedupe transform for browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && tap test/*.js",
+    "cov": "tap --cov test/*.js",
+    "lint": "eslint *.js 'lib/**/*.js' test/*.js bin/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=REPO_TOKEN npm run cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/dedupify.git"
+  },
+  "keywords": [
+    "browserify-plugin",
+    "browserify",
+    "dedupe",
+    "dedupify"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/dedupify/issues"
+  },
+  "homepage": "https://github.com/zoubin/dedupify#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "eslint": "^2.1.0",
+    "tap": "^5.0.0"
+  }
+}
