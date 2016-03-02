@@ -1,6 +1,6 @@
 {
   "name": "dedupify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Replace the default dedupe transform for browserify",
   "main": "index.js",
   "scripts": {
