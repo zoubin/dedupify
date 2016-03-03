@@ -21,6 +21,9 @@
   ],
   "author": "zoubin",
   "license": "MIT",
+  "engines": {
+    "node": ">=4.2.1"
+  },
   "bugs": {
     "url": "https://github.com/zoubin/dedupify/issues"
   },
